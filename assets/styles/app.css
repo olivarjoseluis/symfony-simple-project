@@ -1,0 +1,23 @@
+@import 'bootstrap';
+
+:root {
+    --blue-1: #16213E;
+    --blue-2: #0F3460;
+    --purple: #533483;
+    --primary: #E94560;
+    --white: #fff;
+}
+
+body {
+    background-color: var(--blue-1);
+    color: var(--white);
+}
+
+body .btn-primary.btn {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.card {
+    background-color: var(--blue-2);
+}
